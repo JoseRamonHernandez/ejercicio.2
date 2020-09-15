@@ -15,7 +15,7 @@ verNotificacion.addEventListener('click', () =>{
     //console.log('lo oprimiste');
     if(Notification.permission === 'granted')
     {
-       // console.log('lo oprimiste');
+        //console.log('lo oprimiste');
        const notificacion = new Notification('Esta es la notificacion al seleccionar granted',
        {
            icon: 'img/ccj.png',
